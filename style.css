@@ -15,14 +15,14 @@ body {
 .content-vid {
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 .content-vid video {
     width: 1000px;
     height: auto;
     border-radius: 50px;
-    display: flex;
-    flex-direction: column;
+   
 }
 
 .title {
